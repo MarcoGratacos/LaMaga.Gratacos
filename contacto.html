@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <div id="catalogoMenu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="catalogo.html">CATALOGO</a></li>
+                <li><a href="quienessomos.html">QUIENES SOMOS?</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contacto">
+        <h1>Preguntanos lo que quieras. Estamos para vos</h1>
+        <fieldset class="form">
+            <legend>Formulario de Contacto.</legend>
+            <form action="#">
+                <div class="genero">
+                    <span>Sexo:</span>
+
+                    <input type="radio" value="Hombre" name="Sexo" id="id_masculino">
+                    <label for="masculino">Hombre</label>
+                    <input type="radio" value="Mujer" name="Sexo" id="id_femenino">
+                    <label for=femenino">Mujer</label>
+                </div>
+
+                <div class="genero">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
+
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" name="Apellido" id="Apellido" placeholder="Apellido">
+
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" name="email" id="Correo Electronico" placeholder="Correo Electronico">
+
+                    <label for="Telefono">Telefono de Contacto:</label>
+                    <input type="text" name="Telefono" id="Telefono" placeholder="Telefono de contacto">
+                </div>
+
+                <div class="genero">
+                    <label for="consulta">Dejanos tu consulta</label>
+                    <textarea name="consulta" id="consulta" cols="130" rows="5"></textarea>
+                </div>
+                <div class="genero">
+                    <input type="submit" value="Enviar Consulta">
+                </div>
+               
+                <div class="genero">
+                    <input type="checkbox" name="Newsletter" value="Deseas subscribirte a nuestro Newsletter">
+                    <label for="Newsletter">Deseas subscribirte a nuestro Newsletter</label>
+                </div>
+
+                <h2>
+                    <element class="genero"> Por último, podrías contarnos como nos conociste?</element>
+                </h2>
+                <div class="genero">
+                    <select name="Llegada" id="Id_Marketing">
+                        <option value="RS">Redes Sociales</option>
+                        <option value="G">Google</option>
+                        <option value="R">Recomendación</option>
+                        <option value="Ad">Publicidad</option>
+                    </select>
+                </Div>
+             
+                <div class="genero">
+                    <input type="reset" value="Borrar datos">
+                </div>
+        </fieldset>
+        </form>
+
+        <a href="index.html">Volver al Inicio</a> </li>
+    </section>
+
+
+    <footer id="finPagina">
+        <hr>
+        <img class="redes" src="imagenes/face.png" alt="facebook" />
+        <img class="redes" src="imagenes/instagram.png" alt="instagram" />
+        <img class="redes" src="imagenes/whatsapp.png" alt="whatsapp" />
+        <p>Copyright: 2021. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
